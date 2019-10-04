@@ -1,0 +1,112 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  background-color: darkred;
+}
+.page{
+  margin: auto;
+  width: 80%;
+}
+
+#logo img{
+  height: 50px;
+  display: inline-block;
+  margin: 10px;
+}
+.first{
+  position: relative;
+  color: white;
+  height: 300px;
+  background-color: rgb(135, 169, 132);
+  margin-bottom: 10px;
+}
+.menu{
+  background-color: grey;
+  height: 45px;
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+.menu li{
+  display: inline-block;
+  text-decoration: none;
+  padding: 14px;
+  font-size: 15px;
+}
+.menu li:hover{
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+.first img{
+  height: 200px;
+  padding-left: 70px;
+  float: left;
+
+}
+.text h3{
+  padding-top: 40px;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+.text{
+  width: 68%;
+  position: absolute;
+  right: 0;
+  padding-left: 20px;
+  padding-right: 45px;
+  font-size: 16.5px;
+  padding-bottom: 10px;
+}
+
+.second{
+  height:500px;
+  background-color: rgb(219, 216, 197);
+  position: relative;
+  margin-bottom: 10px;
+
+}
+.left{
+  float: left;
+  height: 100%;
+  width: 30%;
+  background-color: rgb(150, 175, 172);
+  padding-left: 60px;
+  padding-top: 20px;
+}
+.left li{
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  border-bottom: 1px solid white;
+  width: 80%;
+  padding: 10px;
+  transition-property: font-size;
+
+}
+.left li:hover{
+  transition: 1s;
+  font-size: 20px;
+}
+.right{
+  width: 68%;
+  position: absolute;
+  right: 0;
+  padding-top:10px;
+  padding-left: 20px;
+  padding-right: 45px;
+
+}
+.right h4{
+  color: rgb(70, 96, 107);
+  padding: 12px;
+  padding-left: 0px;
+  font-size: 25px;
+}
+.right p{
+  padding-bottom: 10px;
+  font-size: 16.5px;
+}
